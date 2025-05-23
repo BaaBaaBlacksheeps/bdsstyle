@@ -295,28 +295,28 @@ body {
 
 @font-face {
   font-family: "LucideCalli";
-  src: url("fonts/LucidaUnicodeCalligraphy.ttf") format("truetype");
+  src: url("LucidaUnicodeCalligraphy.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LucideCalli";
-  src: url("fonts/LucidaUnicodeCalligraphyBold.ttf") format("truetype");
+  src: url("LucidaUnicodeCalligraphyBold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "PoppinsLight";
-  src: url("fonts/Poppins-Light.ttf") format("truetype");
+  src: url("Poppins-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "PoppinsLight";
-  src: url("fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("Poppins-Medium.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
