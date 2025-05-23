@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom Digital Shopping™</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div id="not-popup">
+      <main class="main-main">
+        <h1>
+          Blossom
+          <br />
+          Digital Shopping™
+        </h1>
+        <div class="main-links">
+          <a>
+            <img
+              src="/display_images/legging.png"
+              alt="leggings"
+              height="{800}"
+              width="{800}"
+            />
+            <span>Leggings</span>
+          </a>
+          <a>
+            <img
+              src="/display_images/dupatta_white.png"
+              alt="dupattas"
+              height="{800}"
+              width="{800}"
+            />
+            <span>BDSStyle® Dupattas</span>
+          </a>
+        </div>
+        <div class="main-subcategories-grid">
+          <div class="main-empty-card">
+            <img src="/background_tree_clean.png" alt="" />
+          </div>
+          <a>
+            <img src="/display_images/legging.png" alt="ankle length legging" />
+            <span>Ankle length Leggings</span>
+          </a>
+          <a>
+            <img src="/display_images/legging.png" alt="chudidar legging" />
+            <span>Chudidar Leggings</span>
+          </a>
+          <div class="main-welcome-card">
+            <h2>Welcome</h2>
+            <p>
+              Choose from a unique collection of products with a perfect style
+              and design, with best quality and price.
+              <br />
+              Feel the blossoming experience while you shop!
+            </p>
+            <a class="main-aboutus-link">
+              About Us <img class="icon" src="go.svg" />
+            </a>
+          </div>
+          <div class="main-empty-card">
+            <img src="/background_tree_clean.png" alt="" />
+          </div>
+          <a>
+            <img src="/display_images/dupatta.png" alt="dupatta" />
+            <span>BDSStyle® Dupattas</span>
+          </a>
+        </div>
+      </main>
+      <footer class="footer-footer">
+        <div class="footer-banner"></div>
+        <div class="footer-reverse">
+          <div class="footer-logo-and-contact">
+            <div class="footer-logo">
+              <a>
+                <img
+                  src="/logo_white.png"
+                  alt="logo-blossom digital shopping"
+                />
+                <p>Blossom <span>Digital Shopping™</span></p>
+              </a>
+            </div>
+            <div class="footer-contact-us-details" id="contact-us">
+              <p>
+                <b>Mrs. Sangeetha Tuma</b>
+              </p>
+              <p>Owner, Founder & Sole Proprietor</p>
+              <p>
+                <a href="tel:+6302171069">(+91) 6302171069</a>
+              </p>
+            </div>
+            <div class="footer-contact-us-details">
+              <p>
+                <b>Official Address:</b>
+              </p>
+              <p>Flat no. 3D, Jains Anand Rock Garden Apts Phase 1,</p>
+              <p>Gafoor Nagar, Hi-tech city road,</p>
+              <p>Madhapur, 500081</p>
+              <p>Hyderabad, Telangana, India</p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-links">
+            <a>Leggings</a>
+            <a>BDSStyle® Dupattas</a>
+            <a>About Us</a>
+            <a>Profile</a>
+            <a>Terms & Conditions</a>
+            <a>Privacy Policy</a>
+            <a>Returns & Refund Policy</a>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-disclaimer">
+          <p>
+            There are no other offices / representatives / subsidiaries /agents
+            / agencies / employees / marketing team Online / Offline across
+            Hyderabad / Telangana / India / USA / UK or across Global appointed
+            to act on behalf of Blossom Digital Shopping™ and BDSStyle® Any other
+            persons or entity trying to imitate or mis-represent me or my
+            Business Name and Website URL or through digital platforms or social
+            platforms for any purpose, marketing or posting Ads or creating
+            links in websites, creating duplicate or shadow websites or
+            imitating the websites are liable to be prosecuted and appropriate
+            legal action shall be initiated.
+          </p>
+        </div>
+        <hr />
+        <div class="footer-copyrights">
+          <span>Copyright @ 2020-2025</span>
+          <span>Official Website of Blossom Digital Shopping™</span>
+          <span>All Rights Reserved</span>
+        </div>
+        <hr />
+        <div class="footer-builder">
+          <span>
+            Designed, developed & maintained by pranav tuma, sangeetha tuma
+            and sridharnath tuma
+          </span>
+        </div>
+        <div class="footer-bottom-spacer" />
+      </footer>
+    </div>
+
+    <div
+      id="popup"
+      class="popup-center popup-dont-show"
+      onclick="close_popup_handler()"
+    >
+      <a class="popup-popup" onclick="stop_propagation(event)">
+        <div class="popup-heading-and-login">
+          <div>
+            <span class="popup-welcome">Welcome</span> to
+            <br />
+            <span class="popup-bds">Blossom Digital Shopping™</span>
+          </div>
+          <div class="popup-login">
+            <button class="button" onclick="close_popup_handler()"><img src="close.svg" /></button>
+          </div>
+        </div>
+        <div class="popup-tag-and-img">
+          <div>
+            <p>
+              Exclusive collections of
+              <strong>
+                <i>leggings</i>
+              </strong>
+              &
+              <strong>
+                <i>dupattas</i>
+              </strong>
+              at best price
+            </p>
+            <p class="popup-maintenance">Website under maintenance. Will resume shortly</p>
+          </div>
+          <img src="/ganesh.png" width="250" height="250" alt="img" />
+        </div>
+        <p class="popup-tandc">
+          Renowned & Trusted digital store since 2022 *&#40;T&C apply&#41;
+        </p>
+      </a>
+    </div>
+
+    <script>
+      let display = false;
+
+      // on window load: open popup
+      window.onload = () => {
+        document.getElementById("popup").classList.remove("popup-dont-show");
+        // also set height of body to 100vh
+        document.getElementById("not-popup").classList.add("not-popup");
+      };
+
+      // attach listener to close window on click on outside perimeter or on close button
+      const close_popup_handler = () => {
+        document.getElementById("popup").classList.add("popup-dont-show");
+        // remove the height overflow on the body
+        document.getElementById("not-popup").classList.remove("not-popup");
+      };
+
+      // prevent click propagation on popup banner
+      const stop_propagation = (e) => {
+        e.stopPropagation();
+      };
+    </script>
+  </body>
+</html>
