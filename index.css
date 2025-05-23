@@ -15,6 +15,13 @@ body {
   color: rgb(61, 61, 61);
 }
 
+.main-main h2 {
+  font-size: 36px;
+  padding-top: 48px;
+  font-weight: 500;
+  font-weight: 600;
+}
+
 
 .main-links {
   padding: 48px 0;
@@ -125,7 +132,11 @@ body {
 @media screen and (max-width: 1000px) {
   .main-main h1 {
     font-size: 72px;
-    padding: 48px 0;
+    padding: 48px 0 24px 0;
+  }
+  .main-main h2 {
+    font-size: 32px;
+    padding: 0 0 48px 0px;
   }
   .main-subcategories-grid {
     font-size: 14px;
@@ -143,6 +154,7 @@ body {
   .main-main h1 {
     font-size: 64px;
   }
+
   .main-links {
     grid-template-columns: 1fr;
   }
@@ -166,6 +178,9 @@ body {
   .main-main h1 {
     font-size: 48px;
     padding: 16px 0;
+  }
+  .main-main h2 {
+    font-size: 24px;
   }
   .main-links > a,
   .main-subcategories-grid > div {
@@ -437,6 +452,10 @@ a {
   font-size: 1.5em;
   font-weight: bold;
   line-height: 130%;
+}
+
+.popup-small {
+  font-size: .8em;
 }
 
 .popup-login {
