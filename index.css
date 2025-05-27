@@ -502,6 +502,15 @@ a {
   text-align: end;
 }
 
+.popup-deleted-emails  {
+  font-size: 14px;
+}
+
+.popup-deleted-emails ul {
+  padding-left: 16px;
+  text-decoration: line-through;
+}
+
 @media screen and (max-width: 800px) {
   .popup-popup {
     padding: 24px;
