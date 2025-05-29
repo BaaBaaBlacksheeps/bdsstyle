@@ -234,7 +234,6 @@ body {
 .footer-logo a {
   display: flex;
   flex-direction: row;
-  align-items: center;
   column-gap: 8px;
   padding-right: 16px;
 }
@@ -259,6 +258,29 @@ body {
 .footer-logo-and-contact {
   padding: 32px var(--padding-x);
   column-gap: 24px;
+}
+
+.footer-logo .footer-and-bds {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.footer-reg-numbers ul {
+  list-style-type: none;
+}
+
+.footer-reg-numbers li {
+  margin-top: 4px;
+}
+
+.label {
+  font-size: .95em;
+  display: block;
+  color: rgb(65, 64, 64);
+}
+
+.footer-address {
+  margin-top: 16px;
 }
 
 .footer-disclaimer,
@@ -291,6 +313,12 @@ body {
   }
   .footer-logo-and-contact {
     row-gap: 32px;
+  }
+  .footer-logo a {
+    justify-content: center;
+  }
+  .footer-reg-numbers {
+    text-align: center;
   }
   .footer-logo-and-contact p,
   .footer-copyrights span {
