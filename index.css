@@ -505,7 +505,7 @@ a {
   align-items: flex-end;
   margin: 1.25em 0;
   line-height: 130%;
-  justify-content: space-between;
+  row-gap: 16px;
 }
 
 .popup-tag-and-img div {
@@ -515,7 +515,7 @@ a {
   padding-top: 32px;
   flex-direction: column;
   height: 100%;
-  justify-content: space-between;
+  row-gap: 14px;
 }
 
 .popup-tag-and-img img {
@@ -530,8 +530,9 @@ a {
   text-align: end;
 }
 
-.popup-deleted-emails  {
+.popup-tag-and-img div.popup-deleted-emails  {
   font-size: 14px;
+  row-gap: 4px;
 }
 
 .popup-deleted-emails ul {
