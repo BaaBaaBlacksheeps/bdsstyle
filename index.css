@@ -505,7 +505,7 @@ a {
   align-items: flex-end;
   margin: 1.25em 0;
   line-height: 130%;
-  row-gap: 16px;
+  justify-content: space-between;
 }
 
 .popup-tag-and-img div {
